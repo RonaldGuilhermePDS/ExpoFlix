@@ -1,0 +1,66 @@
+{
+  "name": "netflix-ui-clone-expo",
+  "version": "0.0.1",
+  "description": "Netflix UI Clone with React Native Framework and Expo Platform Execution",
+  "author": "Ronald Guilherme P. dos Santos",
+  "license": "MIT",
+  "keywords": [
+    "expo",
+    "react native",
+    "react navigation",
+    "netflix"
+  ],
+  "main": "src/App.js",
+  "scripts": {
+    "dev": "expo start",
+    "start": "expo start",
+    "lint": "eslint ./src",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "web-build": "expo build:web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-masked-view/masked-view": "0.2.4",
+    "expo": "^42.0.0",
+    "expo-app-loading": "^1.0.1",
+    "expo-asset": "~8.3.3",
+    "expo-constants": "~11.0.1",
+    "expo-font": "~9.2.1",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-svg": "12.1.1",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "11.6.2",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-navigation-tabs": "^2.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-expo": "^8.4.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "prettier": "^2.3.2"
+  },
+  "eslintIgnore": [
+    "babel.config.js"
+  ],
+  "private": true
+}

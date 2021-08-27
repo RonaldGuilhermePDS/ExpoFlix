@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Netflix UI Clone Expo",
+    "description": "Netflix UI Clone with React Native and Expo",
+    "scheme": "netflix-ui-clone-expo",
+    "slug": "netflix-ui-clone-expo",
+    "privacy": "public",
+    "version": "0.0.1",
+    "sdkVersion": "42.0.0",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "githubUrl": "https://github.com/RonaldGuilhermePDS/Netflix-UI-Clone-Expo",
+    "orientation": "portrait",
+    "icon": "src/assets/Icon.png",
+    "splash": {
+      "image": "src/assets/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 2
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
